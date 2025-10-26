@@ -34,7 +34,10 @@ cd RandomQuoteGenerator
 
 ```bash
 cd backend
-npm install
+npm init -y
+npm install express axios cors dotenv
+node server.js
+
 ```
 
 ### Frontend Setup
@@ -50,7 +53,7 @@ No installation required—just open `frontend/index.html` in your browser.
 In the `backend` directory, run:
 
 ```bash
-npm start
+node server.js
 ```
 
 By default, the backend runs on [http://localhost:5000](http://localhost:5000).
